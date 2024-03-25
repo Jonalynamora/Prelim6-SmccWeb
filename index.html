@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+body {
+  background-image: url('smcc.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+   z-index: 1;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav { 
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0% 0% 100% );
+  position: fixed;
+  text-align: center;
+  z-index: 2;
+  top: 0;
+}
+
+nav ul {
+    font-size: small;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    padding: 2pxpx;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+nav ul li:hover a {
+    color: yellow;
+}
+h1 {
+  
+  margin: 10px;
+  background-color: rgb(100% 100% 100% / 50%);
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  font-size: 50px;
+}
+h2 {
+  color:blue;
+}
+h3 {
+  color: darkblue;
+}
+table {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+td {
+    text-align: center;
+    padding: 20px .625em .625em .625em;
+    border-bottom: 1px solid whitesmoke;
+    text-align: left;
+    font-size: 15px;
+}
+
+p { font-family: Verdana;
+  font-size: 20px;
+}
+#smcclogo,
+#smccvision,
+#smccmission,
+#ccis,
+#studentserv,
+#onlineserv,
+#contactsec {
+  background-color: rgb(100% 100% 0% / 50%);
+    border-radius: 15px;
+    padding: 20px;
+    width: 70%;
+    margin: 50px auto;
+    color: black;
+}
+Footer {
+  background-color: blue;
+  color: white;
+}
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMCC Website</title>
+</head>
+
+<body>
+<header>
+  <h1>  <img src="smcclogo.png" alt="" height="100">
+    SAINT MICHAEL COLLEGE OF CARAGA</h1>
+
+<nav>
+  <ul>
+    <li> <a href="index.html">Home</a> </li>
+    <li> <a href="#about">About SMCC</a> </li>
+    <li><a href="#courses">Courses Offered</a> </li>
+    <li> <a href="#services">Services</a></li>
+    <li> <a href="#contacts">Contact Us</a> </li>
+  </ul>
+      
+    </nav>
+</header>
+<hr>
+<main style="text-align: center;">
+<article id="about">
+  <h2>ABOUT SMCC</h2>
+
+<section id="smccvision">
+  <h3>VISION</h3>
+  <hr>
+  <figure>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;Saint Michael College of Caraga envisions to be a university by 2035 and
+        upholds spiritual formation and excellence in teaching, service, and research.
+    </p>
+</figure>
+</section>
+<section id="smccmission">
+  <h3>MISSIONS</h3>
+  <hr>
+  <figure>
+      As such SMCC, commits itself:
+      <ul style="text-align: justify;">
+          <li>
+              SMCC shall provide spiritual formation and learning culture that will ensure the students
+              with excellent and rewarding learning experience that transform lives, abound spirituality,
+              develop skills and prepare future leaders;
+          </li><br>
+          <li>
+              SMCC shall engage to dynamic, innovative, and interdisciplinary researches that are
+              publishable to advance and achieve institutional initiatives; and
+          </li><br>
+          <li>
+              SMCC shall commit to serve the diverse and local communities in fostering innovations
+              through service-learning that enhances reciprocal community partnerships for spiritual and
+              social development.
+          </li>
+      </ul>
+  </figure>
+</section>
+</article>
+
+<article id="courses">
+  <h2>COLLEGE COURSES OFFERED</h2>
+<section id="ccis">
+  <h3>CCIS</h3>
+  <figure>
+      <img src="ccis.png" alt="CCIS Logo Image" width="40%">
+      <div id="tablewrap">
+          <table id="ccistable">
+              <h3 style="font-size: medium;">College of Computing and Information Sciences</h3>
+              <hr>
+              <tr>
+                  <td>BSCS</td>
+                  <td>Bachelor of Science in Computer Science </td>
+              </tr>
+              <tr>
+                  <td>BSIT</td>
+                  <td>Bachelor of Science in Information Technology</td>
+              </tr>
+              <tr>
+                  <td>BLIS</td>
+                  <td>Bachelor of Library and Information Science</td>
+              </tr>
+              <tr>
+                  <td>DIT</td>
+                  <td>Diploma in Information Technology</td>
+              </tr>
+          </table>
+      </div>
+  </figure>
+</section>
+<br>
+<article id="services">
+  <h2>SERVICES</h2>
+  <section id="studentserv">
+      <h3>STUDENT SERVICES</h3>
+      <hr>
+      <ul style="list-style-type: none; margin: 0; padding: 0;">
+          <li><a href="service.html">Admission and Scholarship Services</a></li><br>
+          <li><a href="service.html">Guidance Services</a></li><br>
+          <li><a href="service.html">Health Services</a></li><br>
+          <li><a href="service.html">Student Discipline</a></li>
+      </ul>
+  </section>
+  <section id="onlineserv">
+      <h3>ONLINE SERVICES</h3>
+      <hr>
+      <ul style="list-style-type: none; margin: 0; padding: 0;">
+          <li><a href="https://my.smccnasipit.edu.ph/enrollment_application" target="_blank">Online Enrollment</a></li><br>
+          <li><a href="https://my.smccnasipit.edu.ph/" target="_blank">Student Portal</a></li><br>
+          <li><a href="https://www.facebook.com/SMCCofficial" target="_blank">Official Facebook Page</a></li><br>
+      </ul>
+  </section>
+</article>
+<br>
+<article id="contacts">
+  <h2>CONTACT US</h2>
+  <section id="contactsec">
+      <h3>CONTACT INFO</h3>
+      <hr>
+      <div style="text-align: justify;">
+          <figure>
+              <img src="address.png" alt="" height="40"> Atupan St. Brgy. 4, Nasipit, Agusan del Norte
+              Mindanao, Philippines 8602
+          </figure>
+          <figure>
+              <img src="facebook.png" alt="" height="35"> <a href="https://www.facebook.com/SMCCofficial" target="_blank">https://www.facebook.com/SMCCofficial</a>
+          </figure>
+          <figure>
+              <img src="gmail.png" alt="" height="35"> <a href="mailto:info@smccnasipit.edu.ph">info@smccnasipit.edu.ph</a>
+          </figure>
+          <figure>
+              <img src="call.png" alt="" height="35"> (085) 123-4567 / 0998-765-4321
+          </figure>
+      </div>
+  </section>
+</article>
+</main>
+<hr>
+<Footer style="text-align: center; font-size: smaller; ">
+  <p>All Rights Reserved &copy;AMORA J. 2024</p>
+  <a href="#top">Back To Top </a>
+</Footer>
+</body>
+</html>
